@@ -13,6 +13,7 @@ export class RecipesService {
         name: ingredient.name,
         quantity: ingredient.amount,
         unit: ingredient.unit,
+        id: ingredient.id,
       });
     });
     return recipe;

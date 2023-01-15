@@ -55,3 +55,6 @@ components:
         unit:
           type: string
           format: string
+        id:
+          type: number
+          format: number

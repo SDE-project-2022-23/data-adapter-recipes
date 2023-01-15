@@ -21,6 +21,6 @@ const getRandRecipes = async (req: Request, res: Response) => {
     });
 };
 
-recipesRouter.get("/", getRandRecipes);
+recipesRouter.get("/random", getRandRecipes);
 
 export default recipesRouter;
